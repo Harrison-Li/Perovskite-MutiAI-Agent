@@ -1,0 +1,19 @@
+# Ignore Python caches & build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ignore logs
+*.log
+*cpython*
+
+# Ignore data
+data/
+results/
+notebooks/
+
+# Ignore IDE & OS files
+.vscode/
+.DS_Store
